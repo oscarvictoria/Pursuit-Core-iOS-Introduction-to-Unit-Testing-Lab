@@ -1,0 +1,74 @@
+{
+    "response_code": 0,
+    "results": [{
+        "category": "Art",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Leonardo%20da%20Vinci%27s%20Mona%20Lisa%20does%20not%20have%20eyebrows.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+    }, {
+        "category": "History",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "The%20United%20States%20Department%20of%20Homeland%20Security%20was%20formed%20in%20response%20to%20the%20September%2011th%20attacks.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+    }, {
+        "category": "Entertainment%3A%20Video%20Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "When%20was%20Minecraft%20first%20released%20to%20the%20public%3F",
+        "correct_answer": "May%2017th%2C%202009",
+        "incorrect_answers": ["September%2017th%2C%202009", "November%2018th%2C%202011", "October%207th%2C%202011"]
+    }, {
+        "category": "Entertainment%3A%20Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who%20voices%20the%20main%20character%20Blu%20in%20the%202011%20animated%20film%20%22Rio%22%3F",
+        "correct_answer": "Jesse%20Eisenberg",
+        "incorrect_answers": ["Michael%20Cera", "Jonah%20Hill", "Zach%20Galifianakis"]
+    }, {
+        "category": "Entertainment%3A%20Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In%20the%20movie%20%22Spaceballs%22%2C%20what%20are%20the%20Spaceballs%20attempting%20to%20steal%20from%20Planet%20Druidia%3F",
+        "correct_answer": "Air",
+        "incorrect_answers": ["The%20Schwartz", "Princess%20Lonestar", "Meatballs"]
+    }, {
+        "category": "Entertainment%3A%20Music",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What%20is%20the%20first%20track%20on%20Kanye%20West%27s%20808s%20%26%20Heartbreak%3F",
+        "correct_answer": "Say%20You%20Will",
+        "incorrect_answers": ["Welcome%20to%20Heartbreak", "Street%20Lights", "Heartless"]
+    }, {
+        "category": "Entertainment%3A%20Video%20Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which%20of%20these%20stages%20is%20not%20playable%20in%20%22Super%20Smash%20Bros.%20for%20Wii%20U%22%3F",
+        "correct_answer": "Fountain%20of%20Dreams",
+        "incorrect_answers": ["Bridge%20of%20Eldin", "75m", "Miiverse"]
+    }, {
+        "category": "Entertainment%3A%20Japanese%20Anime%20%26%20Manga",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which%20animation%20studio%20produced%20%22Sword%20Art%20Online%22%3F",
+        "correct_answer": "A-1%20Pictures",
+        "incorrect_answers": ["Production%20I.G", "Silver%20Link", "Kyoto%20Animation"]
+    }, {
+        "category": "Entertainment%3A%20Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which%20is%20NOT%20a%20book%20in%20the%20Harry%20Potter%20Series%3F",
+        "correct_answer": "The%20House%20Elf",
+        "incorrect_answers": ["The%20Chamber%20of%20Secrets", "The%20Prisoner%20of%20Azkaban", "The%20Deathly%20Hallows"]
+    }, {
+        "category": "Entertainment%3A%20Video%20Games",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "The%20shotgun%20appears%20in%20every%20numbered%20Resident%20Evil%20game.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+    }]
+}
