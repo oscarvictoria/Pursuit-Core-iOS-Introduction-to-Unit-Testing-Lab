@@ -18,6 +18,9 @@
 		BE14AE8A2395CC7400C925FE /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14AE892395CC7400C925FE /* JokesViewController.swift */; };
 		BE14AE922395CE0800C925FE /* StarWarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14AE912395CE0800C925FE /* StarWarsViewController.swift */; };
 		BE14AE942395CFAE00C925FE /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14AE932395CFAE00C925FE /* TriviaViewController.swift */; };
+		BE14AE962395D43B00C925FE /* starWars.json in Resources */ = {isa = PBXBuildFile; fileRef = BE14AE952395D43B00C925FE /* starWars.json */; };
+		BE14AE982395D46000C925FE /* StarWarsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14AE972395D46000C925FE /* StarWarsFile.swift */; };
+		BE14AE9A2395FF9B00C925FE /* DetailJokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14AE992395FF9B00C925FE /* DetailJokesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		BE14AE892395CC7400C925FE /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = SOURCE_ROOT; };
 		BE14AE912395CE0800C925FE /* StarWarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsViewController.swift; sourceTree = "<group>"; };
 		BE14AE932395CFAE00C925FE /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
+		BE14AE952395D43B00C925FE /* starWars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = starWars.json; sourceTree = "<group>"; };
+		BE14AE972395D46000C925FE /* StarWarsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsFile.swift; sourceTree = "<group>"; };
+		BE14AE992395FF9B00C925FE /* DetailJokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailJokesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +98,10 @@
 				BE14AE672395C3E200C925FE /* Main.storyboard */,
 				BE14AE892395CC7400C925FE /* JokesViewController.swift */,
 				BE14AE932395CFAE00C925FE /* TriviaViewController.swift */,
+				BE14AE992395FF9B00C925FE /* DetailJokesViewController.swift */,
 				BE14AE912395CE0800C925FE /* StarWarsViewController.swift */,
+				BE14AE972395D46000C925FE /* StarWarsFile.swift */,
+				BE14AE952395D43B00C925FE /* starWars.json */,
 				BE14AE852395C7ED00C925FE /* JokeFile.swift */,
 				BE14AE832395C7B100C925FE /* joke-api.json */,
 				BE14AE6A2395C3E500C925FE /* Assets.xcassets */,
@@ -193,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE14AE6E2395C3E500C925FE /* LaunchScreen.storyboard in Resources */,
+				BE14AE962395D43B00C925FE /* starWars.json in Resources */,
 				BE14AE842395C7B100C925FE /* joke-api.json in Resources */,
 				BE14AE6B2395C3E500C925FE /* Assets.xcassets in Resources */,
 				BE14AE692395C3E200C925FE /* Main.storyboard in Resources */,
@@ -213,10 +223,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE14AE9A2395FF9B00C925FE /* DetailJokesViewController.swift in Sources */,
 				BE14AE622395C3E200C925FE /* AppDelegate.swift in Sources */,
 				BE14AE942395CFAE00C925FE /* TriviaViewController.swift in Sources */,
 				BE14AE862395C7ED00C925FE /* JokeFile.swift in Sources */,
 				BE14AE642395C3E200C925FE /* SceneDelegate.swift in Sources */,
+				BE14AE982395D46000C925FE /* StarWarsFile.swift in Sources */,
 				BE14AE8A2395CC7400C925FE /* JokesViewController.swift in Sources */,
 				BE14AE922395CE0800C925FE /* StarWarsViewController.swift in Sources */,
 			);

@@ -57,13 +57,25 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="jokesCell" id="6w2-wm-Ccw">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="jokesCell" textLabel="KZn-pP-za1" rowHeight="136" style="IBUITableViewCellStyleDefault" id="6w2-wm-Ccw">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="136"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6w2-wm-Ccw" id="RJ9-fm-nEL">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="136"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KZn-pP-za1">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="136"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="e9h-tH-M93" kind="show" id="DGr-0c-Ugg"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -84,7 +96,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2116" y="-640"/>
+            <point key="canvasLocation" x="2115.9420289855075" y="-640.17857142857144"/>
+        </scene>
+        <!--Detail Jokes View Controller-->
+        <scene sceneID="C5z-Hg-9Jn">
+            <objects>
+                <viewController id="e9h-tH-M93" customClass="DetailJokesViewController" customModule="UnitTestingLab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QMl-fW-hms">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8L-4R-UR0">
+                                <rect key="frame" x="8" y="288" width="398" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="R8L-4R-UR0" firstAttribute="leading" secondItem="IuS-Bh-g5w" secondAttribute="leading" constant="8" id="Ge4-HW-Jus"/>
+                            <constraint firstItem="R8L-4R-UR0" firstAttribute="top" secondItem="IuS-Bh-g5w" secondAttribute="top" constant="200" id="ayW-oE-qru"/>
+                            <constraint firstItem="IuS-Bh-g5w" firstAttribute="trailing" secondItem="R8L-4R-UR0" secondAttribute="trailing" constant="8" id="fWs-3f-CEp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IuS-Bh-g5w"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nHd-n5-8S9"/>
+                    <connections>
+                        <outlet property="punchLineLabel" destination="R8L-4R-UR0" id="Xom-oE-xY3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dsV-HB-WvH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3050.7246376811595" y="-640.17857142857144"/>
         </scene>
         <!--Trivia View Controller-->
         <scene sceneID="OjE-m2-NEO">

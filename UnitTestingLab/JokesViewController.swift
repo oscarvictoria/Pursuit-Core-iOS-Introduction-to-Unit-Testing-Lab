@@ -23,10 +23,20 @@ class JokesViewController: UIViewController {
         super.viewDidLoad()
         tableView.dataSource = self
         loadData()
+        tableView.delegate = self
     }
     
     func loadData() {
         theJoke = Jokes.getJokes()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let jokesDVC = segue.destination as? DetailJokesViewController,
+            let indexPath = tableView.indexPathForSelectedRow else {
+                fatalError("error")
+        }
+        let punchline = theJoke[indexPath.row]
+        jokesDVC.joke = punchline
     }
 }
 
@@ -39,6 +49,13 @@ extension JokesViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "jokesCell", for: indexPath)
         let jokes = theJoke[indexPath.row]
         cell.textLabel?.text = jokes.setup
+        cell.backgroundColor = .systemYellow
         return cell
+    }
+}
+
+extension JokesViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 117
     }
 }
